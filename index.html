@@ -1046,6 +1046,22 @@
   src="https://cdn.perxona.ai/asia/prod/latest/widget/entry/index.js"
 ></script>
 
+
+<style>
+  /* Ensure widget shows on mobile */
+  sv-agent {
+    display: block !important;
+    visibility: visible !important;
+    z-index: 99999 !important;
+  }
+  @media (max-width: 768px) {
+    sv-agent {
+      display: block !important;
+      visibility: visible !important;
+      z-index: 99999 !important;
+    }
+  }
+</style>
 <sv-agent
   agentProfileId="01KTQT3Z4ST471VH1ZZKNBBZYQ"
   presentationMode="floating"
